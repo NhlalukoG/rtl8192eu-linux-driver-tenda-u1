@@ -15711,9 +15711,8 @@ static int rtw_ioctl_standard_wext_private(struct net_device *dev, struct ifreq 
 	return err;
 }
 
-bool is_compact_task(int a){
+void is_compact_task(int a){
 	// This is a dummy method
-	return true;
 }
 
 static int rtw_ioctl_wext_private(struct net_device *dev, struct ifreq *rq)
